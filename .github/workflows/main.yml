@@ -12,7 +12,7 @@ jobs:
       - name: Test
         run: ci/unit-test-app.sh
       - name: Upload repo
-        run: actions/upload-artifact@4
+        uses: actions/upload-artifact@4
         with:
           name: Code
           path: .
