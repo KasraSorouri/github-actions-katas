@@ -1,7 +1,7 @@
 name: Main workflow
 on: push
 env:
-  github_username: ${{ github.actor }}
+  github_username: kasra
   github_bassword: ${{ secrets.GITHUB_TOKEN }}
 jobs:
   Build:
