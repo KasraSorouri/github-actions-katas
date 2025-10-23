@@ -20,6 +20,9 @@ class TestName(unittest.TestCase):
 
     def test_pass(self):
         self.assertTrue(re.match('a','a'))
+
+    def test_fail(self):
+        self.assertTrue(re.match('a','b'))
         
 if __name__ == '__main__':
     unittest.main()
