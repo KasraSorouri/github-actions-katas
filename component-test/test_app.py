@@ -16,10 +16,7 @@ class TestName(unittest.TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.encoding, 'ISO-8859-1')
         self.assertTrue(re.match('Up and running', response.text))
-
-    def test_pass(self):
-        self.assertTrue(re.match('a','a')
-        
+   
 
 
 if __name__ == '__main__':
